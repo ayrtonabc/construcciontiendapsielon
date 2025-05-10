@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-800; /* Apply base styles, font applied via class in App.tsx */
+  }
+  /* Basic prose styles for blog content */
+  .prose p { @apply mb-4; }
+  .prose h3 { @apply text-xl font-semibold mt-6 mb-3; }
+  .prose ul { @apply list-disc list-inside ml-4 my-3 space-y-1; }
+  .prose a { @apply text-[#04515E] hover:text-[#03414b] hover:underline; } /* Updated link colors */
+}
