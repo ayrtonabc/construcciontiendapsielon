@@ -11,12 +11,15 @@
     "gen-types": "supabase gen types typescript --project-id 'aqvfpcpillzlqnfxikrs' --schema public > src/lib/database.types.ts"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^2.5.0",
+    "@stripe/stripe-js": "^2.4.0",
     "@supabase/supabase-js": "^2.49.4",
     "framer-motion": "^12.9.4",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.30.0",
+    "stripe": "^13.3.0",
     "supabase": "^2.22.6"
   },
   "devDependencies": {
